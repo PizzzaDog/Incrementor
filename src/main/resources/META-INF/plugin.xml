@@ -1,0 +1,29 @@
+<!-- Copyright 2000-2022 JetBrains s.r.o. and other contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. -->
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+
+<idea-plugin>
+
+  <id>by.pizzzadog.incremental</id>
+
+  <name>Incremental</name>
+  <change-notes>
+    <![CDATA[
+      <ul>
+        <li><b>0.1</b> Release 2.10.2023</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- Text to display as company information on Settings | Plugin page -->
+  <vendor>Just a simple plugin</vendor>
+
+  <actions>
+    <!-- Place this entry first in the popup menu; it's always enabled if a project and editor are open -->
+    <action id="EditorBasics.LogicalPositionIllustration"
+            class="by.pizzzadog.actions.IncrementSelectionAction"
+            text="Increment ID's"
+            description="Increment selected ID inside column">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>
