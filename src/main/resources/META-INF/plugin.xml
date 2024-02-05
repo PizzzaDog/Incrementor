@@ -8,14 +8,20 @@
   <name>Incremental</name>
   <change-notes>
     <![CDATA[
+      <h2>Initial version</h2>
       <ul>
-        <li><b>0.1</b> Release 2.10.2023</li>
+        <li><b>1.0-SNAPSHOT</b> Release 2.10.2023</li>
       </ul>
+      <h2>Compatibility updated</h2>
+      <ul>
+        <li><b>1.1</b> Release 5.2.2024</li>
+      </ul>
+
     ]]>
   </change-notes>
 
   <!-- Text to display as company information on Settings | Plugin page -->
-  <vendor>Just a simple plugin</vendor>
+  <vendor>Nikolai Bogdan</vendor>
 
   <actions>
     <!-- Place this entry first in the popup menu; it's always enabled if a project and editor are open -->
